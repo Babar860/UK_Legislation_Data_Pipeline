@@ -1,0 +1,118 @@
+{
+  "title": "Media Act 2024",
+  "type": "ukpga",
+  "year": 2024,
+  "number": 15,
+  "status": "revised",
+  "isbn": "9780105702658",
+  "provisions": 382,
+  "extent": "E+W+S+N.I.",
+  "enactment_date": "2024-05-24",
+  "last_modified": "2026-01-16",
+  "valid_from": "2026-01-01",
+  "uri": "http://www.legislation.gov.uk/ukpga/2024/15",
+  "id_uri": "http://www.legislation.gov.uk/ukpga/2024/15",
+  "xml_url": "http://www.legislation.gov.uk/ukpga/2024/15/data.xml",
+  "pdf_url": "http://www.legislation.gov.uk/ukpga/2024/15/pdfs/ukpga_20240015_en.pdf",
+  "formats": [
+    {
+      "type": "application/akn+xhtml",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/data.html"
+    },
+    {
+      "type": "application/akn+xml",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/data.akn"
+    },
+    {
+      "type": "application/pdf",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/data.pdf"
+    },
+    {
+      "type": "application/rdf+xml",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/data.rdf"
+    },
+    {
+      "type": "application/xhtml+xml",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/data.xht"
+    },
+    {
+      "type": "text/csv",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/data.csv"
+    },
+    {
+      "type": "text/html",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/data.htm"
+    }
+  ],
+  "structure": {
+    "introduction": "http://www.legislation.gov.uk/ukpga/2024/15/introduction",
+    "body": "http://www.legislation.gov.uk/ukpga/2024/15/body",
+    "schedules": "http://www.legislation.gov.uk/ukpga/2024/15/schedules",
+    "contents": "http://www.legislation.gov.uk/ukpga/2024/15/contents"
+  },
+  "versions": [
+    {
+      "date": "2024-05-24",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/2024-05-24"
+    },
+    {
+      "date": "2024-07-24",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/2024-07-24"
+    },
+    {
+      "date": "2024-08-23",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/2024-08-23"
+    },
+    {
+      "date": "2024-10-17",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/2024-10-17"
+    },
+    {
+      "date": "2025-10-01",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/2025-10-01"
+    },
+    {
+      "date": "2026-01-01",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/2026-01-01"
+    },
+    {
+      "date": "enacted",
+      "url": "http://www.legislation.gov.uk/ukpga/2024/15/enacted"
+    }
+  ],
+  "version_count": 7,
+  "unapplied_effects": [
+    {
+      "affecting_legislation": "http://www.legislation.gov.uk/id/uksi/2024/858",
+      "effect_type": "coming into force",
+      "affected_provision": "Sch. 2 para. 12(2)",
+      "affecting_provision": "reg. 4(a)",
+      "condition": "comes into force on the date on which section 299(1) of the 2003 Act comes into force; entered into conditional commencement spreadsheet",
+      "last_modified": "2024-08-22"
+    },
+    {
+      "affecting_legislation": "http://www.legislation.gov.uk/id/uksi/2024/858",
+      "effect_type": "coming into force",
+      "affected_provision": "Sch. 4 para. 23(b)",
+      "affecting_provision": "reg. 4(a)",
+      "condition": "comes into force on the date on which section 299(1) of the 2003 Act comes into force; entered into conditional commencement spreadsheet",
+      "last_modified": "2024-08-22"
+    },
+    {
+      "affecting_legislation": "http://www.legislation.gov.uk/id/uksi/2024/858",
+      "effect_type": "coming into force",
+      "affected_provision": "Sch. 4 para. 53",
+      "affecting_provision": "reg. 2(1)(x) 4(b)",
+      "condition": "comes into force on the date on which paragraph 5 of Schedule 12 to the 2003 Act comes into force; entered into conditional commencement spreadsheet",
+      "last_modified": "2024-08-22"
+    },
+    {
+      "affecting_legislation": "http://www.legislation.gov.uk/id/uksi/2024/858",
+      "effect_type": "coming into force",
+      "affected_provision": "Sch. 4 para. 54",
+      "affecting_provision": "reg. 2(1)(x) 4(c)",
+      "condition": "comes into force on the date on which paragraph 6 of Schedule 12 to the 2003 Act comes into force; entered into conditional commencement spreadsheet",
+      "last_modified": "2024-08-22"
+    }
+  ]
+}
