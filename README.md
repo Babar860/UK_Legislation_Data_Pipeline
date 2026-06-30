@@ -20,6 +20,14 @@ How can large-scale legislative text be collected and transformed into determini
 - Keep extraction deterministic for reproducible NLP and RAG experiments.
 - Provide tests that validate extraction, serialization, CLI behavior, and error handling.
 
+## Project Contribution
+
+This project contributes the data preparation layer required before legal NLP or RAG research can be reliable. It converts official legislation sources into structured records with metadata, links, versions, formats, and document structure preserved for downstream retrieval and analysis.
+
+## Research Relevance
+
+The pipeline is relevant to research on legal NLP, retrieval-augmented generation, corpus construction, and trustworthy information access. Its main research value is reproducibility: outputs are deterministic, schema-like, and suitable for evaluating retrieval strategies over legal documents.
+
 ## System Architecture
 
 The pipeline separates URL validation and fetching, CLML XML extraction, typed record modeling, JSON serialization, and CLI orchestration. This layered structure makes it easier to replace or extend components for batch collection, retrieval indexing, or downstream legal NLP experiments.
