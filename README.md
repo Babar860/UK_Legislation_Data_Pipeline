@@ -4,6 +4,54 @@ A Python data pipeline that fetches UK legislation from [legislation.gov.uk](htt
 
 ---
 
+## Research Motivation
+
+Legal AI and retrieval-augmented generation systems need reliable, structured, and reproducible legal corpora. This project explores the data engineering foundation required before downstream NLP or RAG systems can reason over legislation with traceable source fields.
+
+## Research Problem
+
+How can large-scale legislative text be collected and transformed into deterministic structured records that preserve legal metadata, document structure, version links, and retrieval-ready fields?
+
+## Objectives
+
+- Fetch legislation from official `legislation.gov.uk` sources.
+- Parse CLML XML into stable structured JSON records.
+- Preserve legal metadata, document links, versions, formats, and pending effects.
+- Keep extraction deterministic for reproducible NLP and RAG experiments.
+- Provide tests that validate extraction, serialization, CLI behavior, and error handling.
+
+## System Architecture
+
+The pipeline separates URL validation and fetching, CLML XML extraction, typed record modeling, JSON serialization, and CLI orchestration. This layered structure makes it easier to replace or extend components for batch collection, retrieval indexing, or downstream legal NLP experiments.
+
+## Experimental Setup
+
+- Real legislation URLs are fetched through the CLI and converted into JSON.
+- Fixture-based tests cover CLML parsing, field extraction, serialization, and round-trip behavior.
+- Deterministic sorting and null handling are used to make outputs stable across runs.
+- Example output supports manual inspection and downstream retrieval pipeline testing.
+
+## Future Research
+
+- Add batch processing for large-scale legal corpus collection.
+- Build RAG-ready chunking and metadata indexing over extracted legislation.
+- Compare retrieval performance across CLML structure-aware and plain-text chunking strategies.
+- Add version-diff analysis for studying legal change over time.
+- Evaluate question-answering quality over structured legislation records.
+
+## Citation
+
+```bibtex
+@software{saeed2026uklegislationpipeline,
+  author = {Saeed, Babar},
+  title = {UK Legislation Data Pipeline},
+  year = {2026},
+  url = {https://github.com/Babar860/UK_Legislation_Data_Pipeline}
+}
+```
+
+---
+
 ## Quick Start
 
 ```bash
